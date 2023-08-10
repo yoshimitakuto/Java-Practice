@@ -34,6 +34,17 @@ class Greeting{
         System.out.println(var03);
         System.out.println(var04);
 
+
+        // ブール型
+        int var_1 = 10;
+        int var_2 = 1;
+        boolean var_bool;
+        
+        var_bool = (var_1 > var_2);
+
+        System.out.println(var_bool);
+        
+
         
 
         if (age >= 20){
