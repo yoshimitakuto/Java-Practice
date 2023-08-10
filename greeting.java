@@ -43,6 +43,26 @@ class Greeting{
         var_bool = (var_1 > var_2);
 
         System.out.println(var_bool);
+
+
+        // 配列
+        int[] arr;
+        arr = new int[3];
+
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 3;
+
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
+
+        String[] atr = {"sato", "kato", "yoshimi"};
+
+        System.out.println(atr[0]);
+        System.out.println(atr[1]);
+        System.out.println(atr[2]);
+
         
 
         
