@@ -4,8 +4,12 @@ class Greeting{
         System.out.println("good afternoon");
         System.out.println("good morning");
 
+        String line = "============================";
+
 
         // 整数型
+        System.out.println(line);
+
         byte var_byte = 1;
         short var_short = 12345;
         int var = 1;
@@ -20,6 +24,8 @@ class Greeting{
 
 
         // 少数
+        System.out.println(line);
+
         double var01 = 1.23456789;
         float var02 = 1.234F;
 
@@ -28,6 +34,8 @@ class Greeting{
 
 
         // 文字
+        System.out.println(line);
+
         char var03 = 'A';
         String var04 = "ABCDE";
 
@@ -36,6 +44,8 @@ class Greeting{
 
 
         // ブール型
+        System.out.println(line);
+
         int var_1 = 10;
         int var_2 = 1;
         boolean var_bool;
@@ -46,6 +56,8 @@ class Greeting{
 
 
         // 配列
+        System.out.println(line);
+
         int[] arr;
         arr = new int[3];
 
@@ -63,9 +75,65 @@ class Greeting{
         System.out.println(atr[1]);
         System.out.println(atr[2]);
 
-        
 
+        // 2次元配列
+        System.out.println(line);
         
+        String[][] atr_02 = {{"sato", "tanaka"},{"suzuki","takahasi"}};
+
+        System.out.println(atr_02[0][0]);
+        System.out.println(atr_02[0][1]);
+        System.out.println(atr_02[1][0]);
+        System.out.println(atr_02[1][1]);
+
+
+        // 演算子・関係演算子
+        System.out.println(line);
+        
+        int var_3 = 10;
+        int var_4 = 1;
+        int var_5 = 10;
+
+        System.out.println(var_3 > var_4);
+        System.out.println(var_3 < var_4);
+        System.out.println(var_3 >= var_4);
+        System.out.println(var_3 <= var_4);
+        System.out.println(var_3 <= var_5);
+        System.out.println(var_3 + var_4);
+        System.out.println(var_3 - var_4);
+        System.out.println(var_3 * var_4);
+        System.out.println(var_3 / var_4);
+        System.out.println(var_3 % var_4);
+        System.out.println(var_3 == var_5);
+        System.out.println(var_3 != var_4);
+
+
+        // 論理演算子
+        System.out.println(line);
+
+        int x = 8;
+        int y = 5;
+
+        System.out.println(x >= 5 && x <= 10);
+        System.out.println(y >= 5 && y <= 10);
+        System.out.println(x == 3 || y == 3);
+        System.out.println(x == 1 || y == 1);
+
+
+        // 複合代入演算子
+        System.out.println(line);
+        
+        System.out.println(x += 10);
+
+        x++;
+        y--;
+
+        System.out.println(x);
+        System.out.println(y);
+
+
+        // 条件分岐
+        System.out.println(line);
 
         if (age >= 20){
             System.out.println("20以上です");
@@ -74,6 +142,47 @@ class Greeting{
         } else {
             System.out.println("それ以外です");
         }
+
+
+        // 繰り返し
+        System.out.println(line);
+
+        for(int i = 0; i <= 4; i++) {
+            if(i == 1) {
+                continue;
+            } else if(i == 3) {
+                break;
+            } else {
+                // 何もしない
+            } 
+            System.out.println(i);
+        }
+
+
+        for (int r = 0; r <= 2; r++) {
+            for (int j = 0; j <= 3; j++) {
+                System.out.println(r + "-" + j);
+            }
+        }
+
+        String name[] = {"吉田","田中","近藤"};
+        for (int i = 0; i <= 2; i++) {
+            System.out.println(name[i]);
+        }
+
+        int var_num[] = {1,2,3,4,5,6};
+        int sum = 0;
+        for (int i = 0; i <= 5; i++) {
+            sum += var_num[i];
+        } 
+
+        System.out.println(sum);
+
+
+
+        System.out.println(line);
+
+        System.out.println(line);
 
 
     }
