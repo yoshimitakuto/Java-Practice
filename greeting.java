@@ -4,10 +4,19 @@ class Greeting{
         System.out.println("good afternoon");
         System.out.println("good morning");
 
+
+        // 整数型
+        byte var_byte = 1;
+        short var_short = 12345;
         int var = 1;
         int age = 20;
+        long var_long = 123456789L;
 
+        System.out.println(var_byte);
+        System.out.println(var_short);
         System.out.println(var);
+        System.out.print(var_long);
+        
 
         if (age >= 20){
             System.out.println("20以上です");
