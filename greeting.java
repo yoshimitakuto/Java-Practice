@@ -18,13 +18,21 @@ class Greeting{
         System.out.print(var_long);
 
 
-        
+
         // 少数
         double var01 = 1.23456789;
         float var02 = 1.234F;
 
         System.out.println(var01);
         System.out.println(var02);
+
+
+        // 文字
+        char var03 = 'A';
+        String var04 = "ABCDE";
+
+        System.out.println(var03);
+        System.out.println(var04);
 
         
 
