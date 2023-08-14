@@ -193,14 +193,10 @@ class Greeting{
             sum += var_num[i];
         } 
 
+
+        
         System.out.println(sum);
-
-
-
         System.out.println(line);
-
         System.out.println(line);
-
-
     }
 }
