@@ -68,6 +68,7 @@ class Greeting{
         System.out.println(arr[0]);
         System.out.println(arr[1]);
         System.out.println(arr[2]);
+        System.out.println(arr.length + "要素数");
 
         String[] atr = {"sato", "kato", "yoshimi"};
 
@@ -76,11 +77,27 @@ class Greeting{
         System.out.println(atr[2]);
 
 
-        // 2次元配列
+        // 多次元配列書き方 part1
         System.out.println(line);
-        
-        String[][] atr_02 = {{"sato", "tanaka"},{"suzuki","takahasi"}};
 
+        int[][] allScore = new int[2][3];
+        allScore[0][0] = 80;
+        allScore[0][1] = 70;
+        allScore[0][2] = 60;
+        allScore[1][0] = 50;
+        allScore[1][1] = 40;
+        allScore[1][2] = 30;
+        System.out.println(allScore[0][0]);
+        System.out.println(allScore[0][1]);
+        System.out.println(allScore[0][2]);
+        System.out.println(allScore[1][0]);
+        System.out.println(allScore[1][1]);
+        System.out.println(allScore[1][2]);
+        System.out.println(allScore.length);
+        System.out.println(allScore[0].length);
+        
+        // 多次元配列書き方 part2
+        String[][] atr_02 = {{"sato", "tanaka"},{"suzuki","takahasi"}};
         System.out.println(atr_02[0][0]);
         System.out.println(atr_02[0][1]);
         System.out.println(atr_02[1][0]);
