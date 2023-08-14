@@ -20,5 +20,7 @@ class Cast {
             amount = (int)((price - discount)  * (1 + rate));
             System.out.println("店内飲食の税込金額：" + amount + "円");
         }
+
+        System.out.println("値引き金額" + discount + "円");
     }
 }
