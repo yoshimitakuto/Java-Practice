@@ -13,7 +13,7 @@ class Practice3 {
            str1 += i < 11 && mod == 1 ? x + "," : "";
         }
         
-        System.out.print("奇数 : " + str1.substring(0, str1.length()) + "\n");
+        System.out.print("奇数 : " + str1.substring(0, str1.length() - 1) + "\n");
         System.out.print("偶数 : " + str0.substring(0, str0.length() - 1) + "\n");
     }
 }
